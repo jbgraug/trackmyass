@@ -1,0 +1,43 @@
+body {
+    background: #2d2e30;
+    background: #161616;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div#shape {
+    background: transparent;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 2px red;
+    z-index: 1000
+}
+
+video,
+canvas {
+    border: solid 1px #3d80ed;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+canvas {
+    border: solid 1px red;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #326ea3;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
